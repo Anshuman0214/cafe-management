@@ -1,0 +1,35 @@
+.pt5 {
+    padding-top: 75px;
+    height: 800px;
+  }
+  @media only screen and (max-width: 768px) {
+    .pt5 {
+      padding-top: 200px;
+      height: 1000px;
+    }
+    .mapouter{
+      height: 450px;
+      width: 600px;
+    }
+ 
+  }
+  .mimg {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+  }
+  .nav-bar {
+    background-color: rgba(34, 34, 34, 0.8);
+  }
+
+  @media only screen and (min-width: 768px){
+    .mapouter{
+      height: 200px;
+      width: 200px;
+    }
+    .gmap_canvas{
+      height: 200px;
+      width: 200px;
+    }
+
+  }
